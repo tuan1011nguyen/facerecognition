@@ -14,5 +14,5 @@ Khi kết hợp VGGFace với MTCNN, MTCNN sẽ phát hiện và định vị kh
    ```bash
    pip install -r requirements.txt
    ```
-   **Lưu ý:** để sử dụng code, cần tải mô hình vgg_face_weight.h5 tại [đây]([URL](https://drive.google.com/file/d/1xhZue6xMcQ-ZWyvv-deiVMMex8cphuUx/view?usp=sharing))
+   **Lưu ý:** để sử dụng code, cần tải mô hình vgg_face_weight.h5 tại ([đây](https://drive.google.com/file/d/1xhZue6xMcQ-ZWyvv-deiVMMex8cphuUx/view?usp=sharing))
  
