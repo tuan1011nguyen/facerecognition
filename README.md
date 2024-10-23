@@ -34,11 +34,11 @@ Khi kết hợp VGGFace với MTCNN, MTCNN sẽ phát hiện và định vị kh
    **Lưu ý:** để sử dụng code, cần tải mô hình vgg_face_weight.h5 tại ([đây](https://drive.google.com/file/d/1xhZue6xMcQ-ZWyvv-deiVMMex8cphuUx/view?usp=sharing)). Sau đó hãy chèn mô hình vào thư mục model/.
 
 2. **Cách thêm dữ liệu mới**
-   Để thêm dữ liệu mới mà không cần training lại mô hình, chúng tôi sử dụng embeddings để lưu trữ các giá trị đặc trưng của ảnh bằng Vggface chỉ có các lớp Conv, pooling mà không có lớp Fully Connected.
-   Tại folder NewData, tạo một folder có tên của người cần thêm vào và trong đó chứa các ảnh của người đó
-   Mở file Src/update_embeddings.py và **Run**
+   - Để thêm dữ liệu mới mà không cần training lại mô hình, chúng tôi sử dụng embeddings để lưu trữ các giá trị đặc trưng của ảnh bằng Vggface chỉ có các lớp Conv, pooling mà không có lớp Fully Connected.
+   - Tại folder NewData, tạo một folder có tên của người cần thêm vào và trong đó chứa các ảnh của người đó
+   - Mở file Src/update_embeddings.py và **Run**
 
 3. **Thực hiện việc dự đoán**
-   Tại ```bash main.py``` hãy thay đổi đường dẫn của *new_image_path* và **Run** để thực hiện dự đoán
+   - Tại ```bash main.py``` hãy thay đổi đường dẫn của *new_image_path* và **Run** để thực hiện dự đoán
    
  
